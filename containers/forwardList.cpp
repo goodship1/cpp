@@ -14,5 +14,14 @@ void challenge(){
   print(forward_list<int>(listThree));//prints 10 values of zero
   listThree.push_front(10);//pushs interger to to front of foward_list o(1)
   print(foward_list<int>(listThree);//o(n)
+  for(int i=0; i<10; ++i){
+        listFour.push_front(i);
+    }//push 0 to 9 to front of list
+   listFour.pop_front();//removes 9 from the forward list
+   print(forward_list<int>(listFour));
+   forward_list<int> listFive;//create a new forward list
+   listFive.merge(listFour);//merge list five with list three
+   print(forward_list<int>(listFive));
+  
 }
   
