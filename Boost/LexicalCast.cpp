@@ -9,5 +9,7 @@ void challenge(){
    cout<<strOne;//prints the StrOne
    cout<<endl;//prints a newline
    strOne = "helloworld"+lexical_cast<string>('A');//converts a char to a str and concantinates together message
+   strOne = "hello world"+lexical_cast<string>(34.5);
+   cout<<strOne;
    
 }
