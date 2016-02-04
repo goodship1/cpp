@@ -14,7 +14,7 @@ using boost::variant;
 
 struct showVariant : public static_vistor<> {
        void operator() (int I) const {
-         std::cout<<I<<std::endl;
+            std::cout<<I<<std::endl;
         }
         void operator() (std::string g) const {
             std::cout<<g<<std::endl;
