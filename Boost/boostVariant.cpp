@@ -23,4 +23,8 @@ struct showVariant : public static_vistor<> {
 
 int main() {
    variant<std::string,int> var;
-   
+   var = "hello";
+   boost::apply_visitor(showVariant{},var);
+   var = 21;
+   boost::apply_visitor(showVariant{},var);
+}
