@@ -1,4 +1,4 @@
-#include<threads>
+#include<thread>
 #include<iostream>
 using namespace std;
 void challege(){
