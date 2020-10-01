@@ -1,6 +1,6 @@
 # Learn-cpp
 
-How to learn CPP features
+How to learn CPP features:
 
 
 ###Content
@@ -15,9 +15,9 @@ How to learn CPP features
   - Typecast
 - CPP 11
 - CPP 14
-- Containers implementaion
-- Assembler research
+- Containers Implementaion
+- Assembler Research
 - Boost
-  -   lexical cast
+  -   Lexical Cast
   -   Variant
   -   Any
