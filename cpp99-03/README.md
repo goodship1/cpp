@@ -3,7 +3,7 @@
 ###Content
 - CPP 99 - 03
   - Pointers
-    - Pure poiters
+    - Pure pointers
     - Smart pointers
   - References
   - Virtual
